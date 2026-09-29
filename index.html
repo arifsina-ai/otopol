@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTOPOL OTOMOTİV | Maltepe İstanbul - Lüks & Güvenilir İkinci El Araçlar</title>
+    <meta name="description" content="OTOPOL Otomotiv Maltepe / İstanbul. Sahibinden.com kurumsal mağazamızdaki garantili, ekspertizli ve prestijli ikinci el araç vitrini. İletişim: 0 533 225 68 86">
+    <meta name="keywords" content="otopol otomotiv, maltepe oto galeri, istanbul ikinci el araba, sahibinden galeri ilanları, lüks araç satışı maltepe">
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="OTOPOL OTOMOTİV | Güven ve Prestijin Maltepe'deki Adresi">
+    <meta property="og:description" content="Ekspertiz garantili, değerinde takas ve hızlı finansman imkanlarıyla seçkin araç vitrini.">
+
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        carnation: {
+                            orange: '#ff5500',
+                            'orange-hover': '#e04b00',
+                            dark: '#121721',
+                            darker: '#0c1017',
+                            navy: '#182230',
+                            card: '#ffffff',
+                            border: '#e5e7eb'
+                        },
+                        sahibinden: {
+                            DEFAULT: '#ffd000',
+                            hover: '#ffdb33',
+                            dark: '#111111'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS (Carnation Theme) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-[#f8fafc] text-slate-800 antialiased selection:bg-[#ff5500] selection:text-white">
+
+    <!-- ==========================================================================
+         1. ÜST BİLGİ ŞERİDİ (TOP BAR - CARNATION DARK STYLE)
+         ========================================================================== -->
+    <div class="bg-[#151921] border-b border-slate-800 text-xs text-slate-300 py-2.5 hidden md:block">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center whitespace-nowrap">
+            <!-- Sol: E-posta & Çalışma Saatleri -->
+            <div class="flex items-center gap-6 shrink-0">
+                <a href="mailto:info@otopol.com" class="flex items-center gap-2 hover:text-[#ff5500] transition-colors">
+                    <svg class="w-3.5 h-3.5 text-[#ff5500]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <span>info@otopol.com</span>
+                </a>
+                <div class="flex items-center gap-2">
+                    <svg class="w-3.5 h-3.5 text-[#ff5500]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span class="js-working-hours">Haftanın 7 Günü: 09:00 - 19:30</span>
+                </div>
+            </div>
+
+            <!-- Sağ: Sosyal İkonlar & Sahibinden & İletişim -->
+            <div class="flex items-center gap-5 shrink-0">
+                <!-- Sosyal Ağlar -->
+                <div class="flex items-center gap-3 text-slate-400">
+                    <a href="#" class="hover:text-[#ff5500] transition-colors" title="Facebook">
+                        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.667 5H18V0h-3.889C10.5 0 9 1.5 9 4.667V8z"/></svg>
+                    </a>
+                    <a href="#" class="hover:text-[#ff5500] transition-colors" title="Twitter/X">
+                        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="#" class="hover:text-[#ff5500] transition-colors" title="Instagram">
+                        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="#" class="hover:text-[#ff5500] transition-colors" title="LinkedIn">
+                        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                </div>
+
+                <span class="text-slate-700">|</span>
+
+                <!-- Sahibinden Doğrudan Mağaza Linki -->
+                <a href="https://otopol.sahibinden.com" target="_blank" rel="noopener noreferrer" class="js-sahibinden-store flex items-center gap-1.5 text-slate-300 hover:text-[#ffd000] transition-colors">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#ffd000] animate-pulse"></span>
+                    <span><strong class="text-[#ffd000]">sahibinden.com</strong> Mağazası</span>
+                </a>
+
+                <span class="text-slate-700">|</span>
+
+                <!-- Konum -->
+                <a href="#iletisim" class="text-slate-300 hover:text-[#ff5500] transition-colors flex items-center gap-1">
+                    <svg class="w-3 h-3 text-[#ff5500]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    <span class="js-short-address">Maltepe / İSTANBUL</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================================================
+         2. ANA MENÜ (NAVBAR - CARNATION WHITE STYLE)
+         ========================================================================== -->
+    <header class="sticky top-0 z-40 bg-white border-b border-slate-200 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo: Carnation Aerodynamic Sports Car Outline -->
+                <a href="#" class="flex items-center gap-3 group shrink-0">
+                    <div class="relative flex flex-col items-start leading-none">
+                        <!-- Spor Araba Vektör Çizgisi (Carnation Style) -->
+                        <div class="flex items-center gap-1 mb-1">
+                            <svg class="w-10 h-6 text-[#ff5500]" viewBox="0 0 100 45" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                                <!-- Aerodinamik Tavan & Arka Kanat -->
+                                <path d="M5 32 C12 30, 22 24, 35 15 C45 8, 65 8, 76 16 C85 22, 92 27, 95 30" stroke="#ff5500" stroke-width="4"/>
+                                <path d="M72 16 L88 10 L94 14" stroke="#ff5500" stroke-width="3"/>
+                                <!-- Arka Işık ve Gövde -->
+                                <path d="M95 30 C90 35, 78 35, 70 35 C65 35, 60 30, 55 30 C45 30, 35 35, 25 35 C15 35, 8 34, 5 32" stroke="#ff5500" stroke-width="3"/>
+                                <circle cx="28" cy="35" r="5" fill="#ff5500" stroke="none"/>
+                                <circle cx="78" cy="35" r="5" fill="#ff5500" stroke="none"/>
+                            </svg>
+                        </div>
+                        <div class="text-2xl font-black tracking-tighter text-slate-950 uppercase flex items-center gap-1">
+                            <span>OTOPOL</span>
+                        </div>
+                        <span class="text-[9px] uppercase tracking-[0.25em] font-black text-[#ff5500] -mt-0.5">OTOMOTİV</span>
+                    </div>
+                </a>
+
+                <!-- Navigasyon Linkleri (Türkçe Menü) -->
+                <nav class="hidden lg:flex items-center gap-6 xl:gap-8 text-xs font-black uppercase tracking-wider text-slate-800 whitespace-nowrap">
+                    <a href="#" class="text-[#ff5500] hover:text-[#ff5500] transition-colors py-1">ANA SAYFA</a>
+                    <a href="#ilanlar" class="hover:text-[#ff5500] transition-colors py-1">ARAÇLARIMIZ</a>
+                    <a href="#sahibinden-bolumu" class="hover:text-[#ff5500] transition-colors py-1">SAHİBİNDEN MAĞAZASI</a>
+                    <a href="#takas-formu" class="hover:text-[#ff5500] transition-colors py-1">DEĞERİNDE TAKAS</a>
+                    <a href="#istatistikler" class="hover:text-[#ff5500] transition-colors py-1">NEDEN BİZ?</a>
+                    <a href="#iletisim" class="hover:text-[#ff5500] transition-colors py-1">İLETİŞİM</a>
+                </nav>
+
+                <!-- Sağ Aksiyonlar: Karşılaştır, Arama ve Turuncu FİYAT TEKLİFİ AL Butonu -->
+                <div class="hidden sm:flex items-center gap-4 shrink-0">
+                    <!-- Arama İkonu -->
+                    <a href="#arama-araci" class="text-slate-600 hover:text-[#ff5500] p-1.5 transition-colors" title="Araç Ara">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                    </a>
+
+                    <!-- Araç Sepeti / Karşılaştırma İkonu (Rozetli) -->
+                    <a href="#ilanlar" class="relative text-slate-600 hover:text-[#ff5500] p-1.5 transition-colors" title="Vitrin">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                        </svg>
+                        <span class="absolute -top-1 -right-1 bg-[#ff5500] text-white text-[9px] font-black w-4 h-4 rounded-full flex items-center justify-center">8</span>
+                    </a>
+
+                    <!-- FİYAT TEKLİFİ AL (Carnation İmzalı Turuncu Buton) -->
+                    <a href="#takas-formu" class="btn-carnation-orange py-2.5 px-5 rounded-sm text-xs font-black shadow-md flex items-center gap-2">
+                        <span>FİYAT TEKLİFİ AL</span>
+                    </a>
+                </div>
+
+                <!-- Mobil Menü Butonu -->
+                <button id="mobile-menu-btn" type="button" class="lg:hidden p-2 rounded-sm text-slate-800 hover:text-[#ff5500] bg-slate-100" aria-label="Menü">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobil Menü Çekmecesi -->
+        <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 py-4 space-y-3 text-xs font-black uppercase tracking-wider">
+            <a href="#" class="block text-[#ff5500] py-2 border-b border-slate-100">ANA SAYFA</a>
+            <a href="#ilanlar" class="block text-slate-800 hover:text-[#ff5500] py-2 border-b border-slate-100">ARAÇLARIMIZ</a>
+            <a href="#sahibinden-bolumu" class="block text-slate-800 hover:text-[#ff5500] py-2 border-b border-slate-100">SAHİBİNDEN MAĞAZASI</a>
+            <a href="#takas-formu" class="block text-slate-800 hover:text-[#ff5500] py-2 border-b border-slate-100">DEĞERİNDE TAKAS & DEĞERLEME</a>
+            <a href="#istatistikler" class="block text-slate-800 hover:text-[#ff5500] py-2 border-b border-slate-100">NEDEN OTOPOL?</a>
+            <a href="#iletisim" class="block text-slate-800 hover:text-[#ff5500] py-2">İLETİŞİM & KONUM</a>
+            <div class="pt-2 flex flex-col gap-2">
+                <a href="tel:905332256886" class="js-phone-link w-full py-3 bg-slate-950 text-white text-center font-black rounded-sm">
+                    0 533 225 68 86
+                </a>
+                <a href="https://wa.me/905332256886" class="js-whatsapp-link w-full py-3 bg-[#25D366] text-white text-center font-black rounded-sm">
+                    WhatsApp Destek
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================================================
+         3. HERO BÖLÜMÜ (CARNATION THEME MERCEDES CINEMATIC SLIDER)
+         ========================================================================== -->
+    <section id="hero-slider" class="relative overflow-hidden bg-[#0d131c] text-white min-h-[580px] lg:min-h-[660px] flex items-center">
+        <!-- Arka Plan Araç Slider Katmanı (Full-Width Mercedes Görselleri) -->
+        <div class="absolute inset-0 z-0">
+            <!-- Slayt 1: Mercedes-AMG GT Coupe (Aktif) -->
+            <div class="hero-slide absolute inset-0 opacity-100 transition-opacity duration-1000 ease-in-out">
+                <img 
+                    src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=2200&q=85" 
+                    alt="Mercedes-Benz AMG GT Coupe" 
+                    class="w-full h-full object-cover object-[75%_center] lg:object-right"
+                />
+            </div>
+            <!-- Slayt 2: Mercedes-Benz C200 4MATIC AMG Obsidian -->
+            <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out">
+                <img 
+                    src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=2200&q=85" 
+                    alt="Mercedes-Benz AMG Luxury" 
+                    class="w-full h-full object-cover object-[75%_center] lg:object-right"
+                />
+            </div>
+            <!-- Slayt 3: Mercedes-AMG Sport Edition -->
+            <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out">
+                <img 
+                    src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=2200&q=85" 
+                    alt="Mercedes-AMG Sport Edition" 
+                    class="w-full h-full object-cover object-[75%_center] lg:object-right"
+                />
+            </div>
+        </div>
+
+        <!-- Sol Kavisli Koyu Panel (Carnation Orijinal Eğri Tasarımı) -->
+        <div class="absolute inset-y-0 left-0 w-full lg:w-[60%] z-10 pointer-events-none">
+            <!-- Mobil & Tablet için Degrade Geçiş -->
+            <div class="absolute inset-0 bg-gradient-to-r from-[#0d131c] via-[#0d131c]/95 to-transparent lg:hidden"></div>
+            
+            <!-- Masaüstü için Özgün Carnation Kavisli SVG Katmanı -->
+            <svg class="hidden lg:block absolute inset-y-0 left-0 h-full w-full" preserveAspectRatio="none" viewBox="0 0 720 700" fill="none">
+                <path d="M0 0 H480 C600 220 590 480 450 700 H0 V0 Z" fill="#0d131c"/>
+            </svg>
+        </div>
+
+        <!-- Dekoratif Çizgiler ve Turuncu Işıltı Noktaları (Carnation Dots Detail) -->
+        <div class="absolute inset-y-0 left-0 w-full lg:w-[60%] z-10 pointer-events-none hidden lg:block">
+            <svg class="w-full h-full" preserveAspectRatio="none" viewBox="0 0 720 700" fill="none">
+                <path d="M-40 20 C360 200 480 480 180 700" stroke="#ff5500" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="4 4"/>
+                <circle cx="280" cy="220" r="4.5" fill="#ff5500" class="opacity-90"/>
+                <circle cx="430" cy="410" r="3.5" fill="#ff5500"/>
+                <circle cx="120" cy="580" r="5" fill="#ff5500" class="opacity-75"/>
+            </svg>
+        </div>
+
+        <!-- Ön Plan İçerik (Tipografi & Aksiyonlar) -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full py-20 lg:py-28">
+            <div class="max-w-xl">
+                <!-- Dikey Turuncu Çizgi ile Başlık Etiketi -->
+                <div class="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#ff5500] mb-4">
+                    <span class="w-1 h-4 bg-[#ff5500] inline-block"></span>
+                    <span>PRESTİJ & GÜVENİLİR GALERİ</span>
+                </div>
+
+                <!-- Ana Başlık -->
+                <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-white uppercase leading-[1.08] tracking-tight mb-5">
+                    Profesyonel <br>
+                    <span class="text-white">Galeri Hizmeti</span>
+                </h1>
+
+                <!-- Açıklama -->
+                <p class="text-slate-300 text-sm sm:text-base font-medium max-w-lg mb-8 leading-relaxed">
+                    Aradığınız aracı kurumsal ekspertiz raporu ve OTOPOL güvencesiyle hemen keşfedin. Güvenli noter devri, değerinde takas ve hızlı finansman imkanları.
+                </p>
+
+                <!-- Aksiyon Butonları -->
+                <div class="flex flex-wrap items-center gap-4">
+                    <!-- İLANLARI İNCELE -->
+                    <a href="#ilanlar" class="btn-carnation-orange py-3.5 px-7 rounded-sm text-xs font-black shadow-lg shadow-[#ff5500]/30 inline-flex items-center gap-2">
+                        <span>+ İLANLARI İNCELE</span>
+                    </a>
+
+                    <!-- Telefon Butonu -->
+                    <a href="tel:905332256886" class="js-phone-link py-3 px-6 rounded-sm bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider border border-white/20 transition-all flex items-center gap-2">
+                        <svg class="w-3.5 h-3.5 text-[#ff5500]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                        </svg>
+                        <span class="js-phone-display">0 533 225 68 86</span>
+                    </a>
+                </div>
+
+                <!-- Slider Kontrol Göstergeleri (Dots & Oklar) -->
+                <div class="flex items-center gap-3 mt-8">
+                    <button type="button" onclick="prevHeroSlide()" class="w-8 h-8 rounded-sm bg-white/10 hover:bg-[#ff5500] text-white flex items-center justify-center transition-colors text-xs font-black" title="Önceki">
+                        &#10094;
+                    </button>
+                    <div class="flex items-center gap-1.5" id="hero-slider-dots">
+                        <span onclick="goToHeroSlide(0)" class="hero-dot w-6 h-1.5 rounded-full bg-[#ff5500] cursor-pointer transition-all"></span>
+                        <span onclick="goToHeroSlide(1)" class="hero-dot w-2 h-1.5 rounded-full bg-white/40 hover:bg-white cursor-pointer transition-all"></span>
+                        <span onclick="goToHeroSlide(2)" class="hero-dot w-2 h-1.5 rounded-full bg-white/40 hover:bg-white cursor-pointer transition-all"></span>
+                    </div>
+                    <button type="button" onclick="nextHeroSlide()" class="w-8 h-8 rounded-sm bg-white/10 hover:bg-[#ff5500] text-white flex items-center justify-center transition-colors text-xs font-black" title="Sonraki">
+                        &#10095;
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. ARADIĞINIZ ARACI BULUN (YÜZEN ARAMA ARACI)
+         ========================================================================== -->
+    <section id="arama-araci" class="relative z-30 -mt-10 sm:-mt-12 mb-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-md shadow-2xl p-6 sm:p-7 border border-slate-100">
+                <form id="car-finder-form" class="space-y-4">
+                    <!-- Üst Başlık & Turuncu İkon Rozeti -->
+                    <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-8 h-8 rounded-sm bg-orange-50 text-[#ff5500] flex items-center justify-center">
+                                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
+                                </svg>
+                            </div>
+                            <h2 class="text-sm sm:text-base font-black text-slate-900 uppercase tracking-wider">
+                                ARADIĞINIZ ARACI BULUN
+                            </h2>
+                        </div>
+                        <div class="w-8 h-8 rounded-sm bg-[#ff5500] text-white flex items-center justify-center shadow-sm" title="Filtrele">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- 4 Seçim Kutusu + Turuncu ARAÇLARI FİLTRELE Butonu -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 pt-2">
+                        <!-- 1. Marka -->
+                        <div>
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Araç Markası</label>
+                            <select id="finder-make" class="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs rounded-sm px-3 py-2.5 font-medium focus:outline-none focus:border-[#ff5500]">
+                                <option value="all">Tüm Markalar</option>
+                                <option value="Mercedes-Benz">Mercedes-Benz</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Audi">Audi</option>
+                                <option value="Porsche">Porsche</option>
+                                <option value="Volkswagen">Volkswagen</option>
+                                <option value="Volvo">Volvo</option>
+                                <option value="Land Rover">Land Rover / Range Rover</option>
+                            </select>
+                        </div>
+
+                        <!-- 2. Kasa Tipi -->
+                        <div>
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Kasa Tipi</label>
+                            <select id="finder-body" class="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs rounded-sm px-3 py-2.5 font-medium focus:outline-none focus:border-[#ff5500]">
+                                <option value="all">Tüm Kasa Tipleri</option>
+                                <option value="sedan">Sedan</option>
+                                <option value="suv">SUV & 4x4</option>
+                                <option value="spor">Spor & Coupe</option>
+                                <option value="elektrikli">Elektrikli & Hibrit</option>
+                            </select>
+                        </div>
+
+                        <!-- 3. Araç Durumu -->
+                        <div>
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Araç Durumu</label>
+                            <select id="finder-status" class="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs rounded-sm px-3 py-2.5 font-medium focus:outline-none focus:border-[#ff5500]">
+                                <option value="all">Tüm Durumlar</option>
+                                <option value="used">2. El Garantili</option>
+                                <option value="takas">Takasa Uygun</option>
+                                <option value="sahibinden">Sahibinden İlanı</option>
+                            </select>
+                        </div>
+
+                        <!-- 4. Fiyat Aralığı -->
+                        <div>
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Fiyat Aralığı</label>
+                            <select id="finder-price" class="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs rounded-sm px-3 py-2.5 font-medium focus:outline-none focus:border-[#ff5500]">
+                                <option value="all">Fiyat Aralığı (Tümü)</option>
+                                <option value="1000000-2500000">1.000.000 TL - 2.500.000 TL</option>
+                                <option value="2500000-4000000">2.500.000 TL - 4.000.000 TL</option>
+                                <option value="4000000-10000000">4.000.000 TL ve Üzeri</option>
+                            </select>
+                        </div>
+
+                        <!-- 5. ARAÇLARI FİLTRELE Butonu -->
+                        <div class="flex items-end">
+                            <button type="submit" class="btn-carnation-orange w-full py-2.5 px-4 rounded-sm text-xs font-black flex items-center justify-center gap-1.5 shadow-md">
+                                <span>ARAÇLARI FİLTRELE</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ==========================================================================
+         6. "LATEST RELEASED CARS" VİTRİN BÖLÜMÜ (CARNATION ARAÇ LİSTESİ)
+         ========================================================================== -->
+    <section id="ilanlar" class="py-16 relative bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <!-- Arka Plan Büyük Filigranı: "GÜNCEL VİTRİN" (Carnation Signature) -->
+            <div class="carnation-watermark">GÜNCEL VİTRİN</div>
+
+            <!-- Bölüm Başlığı -->
+            <div class="text-center relative z-10 mb-10">
+                <span class="text-xs font-black uppercase tracking-widest text-[#ff5500] block mb-1">
+                    ÖNE ÇIKAN SEÇKİN ARAÇLARIMIZ
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-950 uppercase tracking-tight">
+                    EN SON EKLENEN GÜNCEL İLANLAR
+                </h2>
+
+                <!-- Kategori Filtre Butonları (All Seller, New Cars, Used Cars) -->
+                <div class="flex flex-wrap items-center justify-center gap-2.5 mt-6">
+                    <button type="button" data-category="all" class="filter-btn active px-6 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all bg-[#ff5500] text-white shadow-md">
+                        TÜM ARAÇLAR
+                    </button>
+                    <button type="button" data-category="sedan" class="filter-btn px-6 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all bg-slate-100 text-slate-700 hover:bg-slate-200">
+                        SEDAN
+                    </button>
+                    <button type="button" data-category="suv" class="filter-btn px-6 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all bg-slate-100 text-slate-700 hover:bg-slate-200">
+                        LÜKS SUV & 4X4
+                    </button>
+                    <button type="button" data-category="spor" class="filter-btn px-6 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all bg-slate-100 text-slate-700 hover:bg-slate-200">
+                        SPOR & COUPE
+                    </button>
+                </div>
+
+                <!-- Arama ve Sıralama Çubuğu -->
+                <div class="max-w-2xl mx-auto mt-6 flex flex-col sm:flex-row gap-3">
+                    <div class="relative flex-1">
+                        <svg class="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                        <input type="text" id="search-input" placeholder="İlanlarda Ara (Marka, model, paket)..." class="w-full pl-10 pr-4 py-2.5 text-xs bg-slate-50 border border-slate-200 rounded-sm focus:bg-white focus:outline-none focus:border-[#ff5500]">
+                    </div>
+                    <select id="sort-select" class="bg-slate-50 border border-slate-200 text-slate-700 text-xs rounded-sm px-4 py-2.5 font-medium focus:bg-white focus:outline-none focus:border-[#ff5500]">
+                        <option value="featured">Öne Çıkan İlanlar</option>
+                        <option value="price-asc">Fiyat: Düşükten Yükseğe</option>
+                        <option value="price-desc">Fiyat: Yüksekten Düşüğe</option>
+                        <option value="year-desc">Model Yılı: En Yeni</option>
+                        <option value="km-asc">Kilometre: En Düşük</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Araç Kartları Izgarası (JavaScript renderVehicles) -->
+            <div id="vehicle-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10 mb-12">
+                <!-- JavaScript dinamik yükler -->
+            </div>
+
+            <!-- "SHOW ALL CARS" Butonu (Carnation Style) -->
+            <div class="text-center relative z-10">
+                <button type="button" onclick="showAllCars()" class="btn-carnation-orange py-3.5 px-8 rounded-sm text-xs font-black shadow-lg">
+                    TÜM ARAÇLARI LİSTELE
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. İSTATİSTİKLER & GÜVEN ÇUBUĞU (CARNATION FULL-WIDTH STATS BANNER)
+         ========================================================================== -->
+    <section id="istatistikler" class="relative bg-[#111722] text-white py-14 overflow-hidden border-y border-slate-800">
+        <!-- Arka Plan Spor Araç Görseli (Hafif Karartmalı) -->
+        <div class="absolute inset-0 opacity-15 pointer-events-none">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1800&q=80" alt="Carnation Fleet" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Üst Ribbon Rozet: "HAYALİNİZDEKİ ARACI KEŞFEDİN" -->
+        <div class="text-center relative z-20 -mt-14 mb-8">
+            <div class="carnation-ribbon">
+                HAYALİNİZDEKİ ARACI KEŞFEDİN
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                <!-- 1. Güncel Araç Stoğu -->
+                <div class="flex flex-col items-center">
+                    <div class="w-14 h-14 rounded-full border border-slate-700 flex items-center justify-center text-white mb-3 bg-white/5">
+                        <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9C2.1 11 2 11.5 2 12v4c0 .6.4 1 1 1h2"/>
+                            <circle cx="7" cy="17" r="2"/>
+                            <path d="M9 17h6"/>
+                            <circle cx="17" cy="17" r="2"/>
+                        </svg>
+                    </div>
+                    <div class="text-3xl sm:text-4xl font-black text-[#ff5500] tracking-tight">50+</div>
+                    <div class="text-xs uppercase font-black text-white mt-1 tracking-wider">GÜNCEL ARAÇ STOĞU</div>
+                </div>
+
+                <!-- 2. Mutlu Müşteri -->
+                <div class="flex flex-col items-center">
+                    <div class="w-14 h-14 rounded-full border border-slate-700 flex items-center justify-center text-white mb-3 bg-white/5">
+                        <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3"/>
+                        </svg>
+                    </div>
+                    <div class="text-3xl sm:text-4xl font-black text-[#ff5500] tracking-tight">1500+</div>
+                    <div class="text-xs uppercase font-black text-white mt-1 tracking-wider">MEMNUN MÜŞTERİ</div>
+                </div>
+
+                <!-- 3. Ekspertiz Güvencesi -->
+                <div class="flex flex-col items-center">
+                    <div class="w-14 h-14 rounded-full border border-slate-700 flex items-center justify-center text-white mb-3 bg-white/5">
+                        <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                        </svg>
+                    </div>
+                    <div class="text-3xl sm:text-4xl font-black text-[#ff5500] tracking-tight">%100</div>
+                    <div class="text-xs uppercase font-black text-white mt-1 tracking-wider">TSE ONAYLI EKSPERTİZ</div>
+                </div>
+
+                <!-- 4. Yıllık Tecrübe -->
+                <div class="flex flex-col items-center">
+                    <div class="w-14 h-14 rounded-full border border-slate-700 flex items-center justify-center text-white mb-3 bg-white/5">
+                        <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+                            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+                        </svg>
+                    </div>
+                    <div class="text-3xl sm:text-4xl font-black text-[#ff5500] tracking-tight">12 YIL</div>
+                    <div class="text-xs uppercase font-black text-white mt-1 tracking-wider">YILLIK SEKTÖR TECRÜBESİ</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. SAHİBİNDEN.COM BÖLÜMÜ (CARNATION BÖLÜMÜ)
+         ========================================================================== -->
+    <section id="sahibinden-bolumu" class="py-16 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-md border border-slate-200 p-8 sm:p-10 shadow-sm">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-7">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 bg-[#ffd000] text-slate-950 font-black text-xs uppercase rounded-sm mb-4">
+                            <span>Resmi Kurumsal Mağaza</span>
+                        </div>
+                        <h2 class="text-2xl sm:text-3xl font-black text-slate-950 uppercase tracking-tight mb-3">
+                            Sahibinden.com Üzerindeki Tüm Güncel İlanlarımız
+                        </h2>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            OTOPOL Otomotiv kurumsal mağazasındaki tüm ilanlar güncel fiyat, detaylı donanım listesi ve ekspertiz raporlarıyla listelenmektedir. İlanları hemen inceleyebilir veya doğrudan danışmanımıza ulaşabilirsiniz.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="https://otopol.sahibinden.com" target="_blank" rel="noopener noreferrer" class="js-sahibinden-store bg-[#ffd000] hover:bg-[#ffe033] text-slate-950 font-black text-xs uppercase px-6 py-3 rounded-sm shadow-md transition-all inline-flex items-center gap-2">
+                                <span>Sahibinden Mağazamızı Aç</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                            </a>
+                            <a href="https://wa.me/905332256886" target="_blank" rel="noopener noreferrer" class="js-whatsapp-link bg-[#25D366] hover:bg-[#20ba59] text-white font-black text-xs uppercase px-6 py-3 rounded-sm shadow-md transition-all inline-flex items-center gap-2">
+                                <span>WhatsApp İlan Danışmanı</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 bg-slate-950 text-white p-6 rounded-sm border border-slate-800">
+                        <div class="text-xs uppercase font-black text-[#ff5500] mb-2 tracking-wider">CANLI DANIŞMA HATTI</div>
+                        <div class="text-2xl font-black text-white js-phone-display mb-1">0 533 225 68 86</div>
+                        <p class="text-xs text-slate-400 mb-4">Haftanın 7 Günü | 09:00 - 19:30 Kesintisiz Hizmet</p>
+                        <a href="tel:905332256886" class="js-phone-link w-full py-2.5 bg-[#ff5500] hover:bg-[#e04b00] text-white text-center font-black text-xs uppercase tracking-wider rounded-sm block">
+                            Hemen Ara
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         9. ARAÇ DEĞERLEME & TAKAS FORMU (CARNATION STYLE FORM)
+         ========================================================================== -->
+    <section id="takas-formu" class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-black uppercase tracking-widest text-[#ff5500] block mb-1">
+                    FİYAT TEKLİFİ AL
+                </span>
+                <h2 class="text-3xl font-black text-slate-950 uppercase tracking-tight">
+                    Hızlı Araç Değerleme & Takas Teklifi
+                </h2>
+                <p class="text-slate-500 text-sm mt-2">
+                    Aracınızın bilgilerini doldurun, uzmanımız 5 dakika içinde piyasa değerini hesaplayarak WhatsApp üzerinden dönüş yapsın.
+                </p>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 rounded-sm p-6 sm:p-10 shadow-sm">
+                <form id="trade-in-form" class="space-y-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Araç Markası *</label>
+                            <input type="text" id="form-car-brand" required placeholder="Örn: BMW, Mercedes, Porsche" class="w-full bg-white border border-slate-200 text-slate-900 text-xs rounded-sm px-4 py-3 focus:outline-none focus:border-[#ff5500]">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Model / Paket *</label>
+                            <input type="text" id="form-car-model" required placeholder="Örn: 520i M Sport, C200 AMG" class="w-full bg-white border border-slate-200 text-slate-900 text-xs rounded-sm px-4 py-3 focus:outline-none focus:border-[#ff5500]">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Model Yılı *</label>
+                            <input type="number" id="form-car-year" required placeholder="2022" class="w-full bg-white border border-slate-200 text-slate-900 text-xs rounded-sm px-4 py-3 focus:outline-none focus:border-[#ff5500]">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Kilometre *</label>
+                            <input type="number" id="form-car-km" required placeholder="45000" class="w-full bg-white border border-slate-200 text-slate-900 text-xs rounded-sm px-4 py-3 focus:outline-none focus:border-[#ff5500]">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Adınız Soyadınız *</label>
+                            <input type="text" id="form-name" required placeholder="Adınız Soyadınız" class="w-full bg-white border border-slate-200 text-slate-900 text-xs rounded-sm px-4 py-3 focus:outline-none focus:border-[#ff5500]">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Telefon Numaranız *</label>
+                            <input type="tel" id="form-phone" required placeholder="0 5XX XXX XX XX" class="w-full bg-white border border-slate-200 text-slate-900 text-xs rounded-sm px-4 py-3 focus:outline-none focus:border-[#ff5500]">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Boya, Değişen veya Hasar Durumu (İsteğe Bağlı)</label>
+                        <textarea id="form-note" rows="2" placeholder="Hatasız boyasız, sağ kapıda lokal çizik boyası..." class="w-full bg-white border border-slate-200 text-slate-900 text-xs rounded-sm px-4 py-2.5 focus:outline-none focus:border-[#ff5500]"></textarea>
+                    </div>
+
+                    <!-- Gönder Butonu (Carnation Orange) -->
+                    <button type="submit" class="btn-carnation-orange w-full py-4 rounded-sm text-sm font-black flex items-center justify-center gap-2 shadow-lg">
+                        <svg class="w-5 h-5 fill-white shrink-0" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.37c1.45.78 3.08 1.2 4.74 1.2 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01C17.18 3.03 14.69 2 12.04 2zm5.43 12.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.66.15-.2.29-.77.96-.94 1.16-.17.2-.35.22-.64.07-.29-.15-1.24-.46-2.36-1.46-.88-.78-1.47-1.75-1.64-2.04-.17-.3-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.3-.49.1-.2.05-.37-.03-.52-.08-.14-.67-1.6-.92-2.19-.24-.57-.48-.49-.66-.5-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.79.37-.27.29-1.03 1-1.03 2.44 0 1.44 1.05 2.83 1.2 3.03.15.2 2.05 3.16 4.99 4.43.7.3 1.25.48 1.67.62.7.22 1.34.19 1.85.12.56-.09 1.73-.71 1.97-1.39.25-.68.25-1.27.17-1.39-.07-.12-.26-.17-.46-.31z"/></svg>
+                        <span>WHATSAPP İLE ANINDA FİYAT TEKLİFİ AL</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         10. PARTNERLER / GÜVEN LOGOLARI ŞERİDİ (CARNATION WHITE LOGO STRIP)
+         ========================================================================== -->
+    <div class="bg-white py-8 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap items-center justify-around gap-6 opacity-75 grayscale hover:grayscale-0 transition-all">
+                <span class="text-lg font-black text-slate-800 tracking-wider">SAHİBİNDEN</span>
+                <span class="text-lg font-black text-slate-800 tracking-wider">TSE EKSPERTİZ</span>
+                <span class="text-lg font-black text-slate-800 tracking-wider">NOTER ONAYLI</span>
+                <span class="text-lg font-black text-slate-800 tracking-wider">GARANTİ BBVA</span>
+                <span class="text-lg font-black text-slate-800 tracking-wider">AKBANK TAŞIT</span>
+                <span class="text-lg font-black text-slate-800 tracking-wider">YAPI KREDİ</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================================================
+         11. CARNATION FOOTER (İMZALI SOL TURUNCU KUTULU KOYU FOOTER)
+         ========================================================================== -->
+    <footer id="iletisim" class="bg-[#11161d] text-white pt-16 pb-8 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 mb-12">
+                <!-- Sol Sütun: Carnation Turuncu Logo Kutusu & İletişim Bilgileri (4 Kolon) -->
+                <div class="lg:col-span-4">
+                    <!-- İmzalı Turuncu Logo Kutusu (Carnation Signature) -->
+                    <div class="carnation-footer-orange-card rounded-sm mb-6">
+                        <svg class="w-12 h-7 text-white mb-2" viewBox="0 0 100 45" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 32 C12 30, 22 24, 35 15 C45 8, 65 8, 76 16 C85 22, 92 27, 95 30" stroke="#ffffff" stroke-width="4"/>
+                            <path d="M72 16 L88 10 L94 14" stroke="#ffffff" stroke-width="3"/>
+                            <path d="M95 30 C90 35, 78 35, 70 35 C65 35, 60 30, 55 30 C45 30, 35 35, 25 35 C15 35, 8 34, 5 32" stroke="#ffffff" stroke-width="3"/>
+                            <circle cx="28" cy="35" r="5" fill="#ffffff" stroke="none"/>
+                            <circle cx="78" cy="35" r="5" fill="#ffffff" stroke="none"/>
+                        </svg>
+                        <div class="text-2xl font-black text-white uppercase tracking-tighter">OTOPOL</div>
+                        <div class="text-[9px] uppercase tracking-[0.25em] font-black text-orange-100">OTOMOTİV</div>
+                    </div>
+
+                    <!-- Bize Ulaşın Başlığı ve Paragraf -->
+                    <h4 class="text-sm font-black text-white uppercase tracking-wider mb-2">BİZE ULAŞIN</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-6">
+                        Maltepe / İstanbul'da güvenilir, ekspertiz garantili ve şeffaf araç alım-satım deneyimi.
+                    </p>
+
+                    <!-- 3 Renkli İkonlu İletişim Satırları (Carnation Signature) -->
+                    <div class="space-y-3 text-xs">
+                        <!-- Telefon: Turuncu Kutu -->
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-sm bg-[#ff5500] text-white flex items-center justify-center shrink-0">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                            </div>
+                            <div>
+                                <span class="text-[10px] text-slate-400 uppercase font-bold block">TELEFON NUMARASI</span>
+                                <a href="tel:905332256886" class="js-phone-link font-black text-white hover:text-[#ff5500] transition-colors js-phone-display">0 533 225 68 86</a>
+                            </div>
+                        </div>
+
+                        <!-- E-posta: Mercan / Kırmızı Kutu -->
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-sm bg-red-600 text-white flex items-center justify-center shrink-0">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            </div>
+                            <div>
+                                <span class="text-[10px] text-slate-400 uppercase font-bold block">E-POSTA ADRESİ</span>
+                                <a href="mailto:info@otopol.com" class="font-bold text-white hover:text-[#ff5500] transition-colors">info@otopol.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Adres: Cyan / Mavi Kutu -->
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-sm bg-sky-500 text-white flex items-center justify-center shrink-0">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            </div>
+                            <div>
+                                <span class="text-[10px] text-slate-400 uppercase font-bold block">GALERİ ADRESİ</span>
+                                <span class="font-bold text-white js-address-display">Maltepe / İSTANBUL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Sütun: Kurumsal Bilgiler (2.5 Kolon) -->
+                <div class="lg:col-span-2 lg:col-start-6">
+                    <h4 class="text-sm font-black text-white uppercase tracking-wider mb-4">KURUMSAL</h4>
+                    <ul class="space-y-2 text-xs text-slate-400 font-medium">
+                        <li><a href="#" class="hover:text-[#ff5500] transition-colors">Hakkımızda</a></li>
+                        <li><a href="#ilanlar" class="hover:text-[#ff5500] transition-colors">Hizmetlerimiz</a></li>
+                        <li><a href="#sahibinden-bolumu" class="hover:text-[#ff5500] transition-colors">Sahibinden Mağazamız</a></li>
+                        <li><a href="#takas-formu" class="hover:text-[#ff5500] transition-colors">Değerinde Takas</a></li>
+                        <li><a href="#iletisim" class="hover:text-[#ff5500] transition-colors">İletişim & Konum</a></li>
+                    </ul>
+                </div>
+
+                <!-- 3. Sütun: Hızlı Bağlantılar (2.5 Kolon) -->
+                <div class="lg:col-span-2">
+                    <h4 class="text-sm font-black text-white uppercase tracking-wider mb-4">HIZLI BAĞLANTILAR</h4>
+                    <ul class="space-y-2 text-xs text-slate-400 font-medium">
+                        <li><a href="#ilanlar" onclick="filterByBrand('BMW')" class="hover:text-[#ff5500] transition-colors">BMW Modelleri</a></li>
+                        <li><a href="#ilanlar" onclick="filterByBrand('Mercedes')" class="hover:text-[#ff5500] transition-colors">Mercedes-Benz</a></li>
+                        <li><a href="#ilanlar" onclick="filterByBrand('Audi')" class="hover:text-[#ff5500] transition-colors">Audi Vitrini</a></li>
+                        <li><a href="#ilanlar" onclick="filterByBrand('Porsche')" class="hover:text-[#ff5500] transition-colors">Porsche Serisi</a></li>
+                        <li><a href="#sahibinden-bolumu" class="hover:text-[#ff5500] transition-colors">Sahibinden.com</a></li>
+                    </ul>
+                </div>
+
+                <!-- 4. Sütun: E-Bülten & Sosyal Ağlar (3 Kolon) -->
+                <div class="lg:col-span-3">
+                    <h4 class="text-sm font-black text-white uppercase tracking-wider mb-4">E-BÜLTEN & DUYURU</h4>
+                    <!-- E-bülten Formu -->
+                    <div class="flex items-center mb-5">
+                        <input type="email" placeholder="E-posta adresiniz..." class="w-full bg-[#1b222c] border border-slate-700 text-white text-xs px-3 py-2.5 rounded-l-sm focus:outline-none focus:border-[#ff5500]">
+                        <button type="button" class="bg-[#ff5500] hover:bg-[#e04b00] text-white px-4 py-2.5 rounded-r-sm font-black text-xs">
+                            &gt;&gt;
+                        </button>
+                    </div>
+
+                    <!-- Sosyal İkon Butonları (Carnation Colored Tiles) -->
+                    <div class="flex items-center gap-2 mb-6">
+                        <a href="#" class="w-8 h-8 rounded-sm bg-[#3b5998] flex items-center justify-center text-white hover:opacity-90">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.667 5H18V0h-3.889C10.5 0 9 1.5 9 4.667V8z"/></svg>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm bg-[#00aced] flex items-center justify-center text-white hover:opacity-90">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm bg-[#cb2027] flex items-center justify-center text-white hover:opacity-90">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z"/></svg>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm bg-[#0077b5] flex items-center justify-center text-white hover:opacity-90">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                    </div>
+
+                    <!-- Şeffaflık & Güven Rozeti -->
+                    <div class="bg-[#18212d] p-3 rounded-sm text-[11px] text-slate-300 border border-slate-800">
+                        Şeffaf ekspertiz, dürüst ticaret ve güler yüzlü müşteri memnuniyeti ilkemizle hizmetinizdeyiz.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alt Telif & Yukarı Kaydır Butonu -->
+            <div class="border-t border-slate-800 pt-6 flex items-center justify-between text-xs text-slate-500">
+                <p>Telif Hakkı &copy; 2026 OTOPOL OTOMOTİV. Tüm hakları saklıdır. Maltepe / İSTANBUL.</p>
+                <!-- Turuncu Yukarı Çık Butonu (Carnation Scroll-to-Top) -->
+                <a href="#" class="w-9 h-9 rounded-sm bg-[#ff5500] hover:bg-[#e04b00] text-white flex items-center justify-center shadow-md transition-all" title="Yukarı Çık">
+                    ▲
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================================================
+         12. ARAÇ DETAY MODALI (POPUP)
+         ========================================================================== -->
+    <div id="vehicle-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-3 sm:p-4 modal-overlay">
+        <div class="absolute inset-0" onclick="closeVehicleModal()"></div>
+        <div id="modal-vehicle-content" class="relative z-10 w-full max-w-4xl bg-white border border-slate-200 rounded-sm shadow-2xl overflow-hidden">
+            <!-- JavaScript dinamik doldurur -->
+        </div>
+    </div>
+
+    <!-- ==========================================================================
+         13. MASAÜSTÜ YÜZEN WHATSAPP BUTONU (SAĞ ALT)
+         ========================================================================== -->
+    <div class="fixed bottom-6 right-6 z-40 hidden sm:block">
+        <a 
+            href="https://wa.me/905332256886?text=Merhaba%20OTOPOL%20Otomotiv,%20ara%C3%A7lar%C4%B1n%C4%B1z%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="js-whatsapp-link relative flex items-center gap-2.5 px-4 py-3 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white shadow-2xl border-2 border-white/60 group transition-all duration-300 hover:scale-105"
+            title="WhatsApp Destek"
+        >
+            <div class="relative shrink-0">
+                <svg class="w-7 h-7 fill-white" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.37c1.45.78 3.08 1.2 4.74 1.2 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01C17.18 3.03 14.69 2 12.04 2zm5.43 12.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.66.15-.2.29-.77.96-.94 1.16-.17.2-.35.22-.64.07-.29-.15-1.24-.46-2.36-1.46-.88-.78-1.47-1.75-1.64-2.04-.17-.3-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.3-.49.1-.2.05-.37-.03-.52-.08-.14-.67-1.6-.92-2.19-.24-.57-.48-.49-.66-.5-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.79.37-.27.29-1.03 1-1.03 2.44 0 1.44 1.05 2.83 1.2 3.03.15.2 2.05 3.16 4.99 4.43.7.3 1.25.48 1.67.62.7.22 1.34.19 1.85.12.56-.09 1.73-.71 1.97-1.39.25-.68.25-1.27.17-1.39-.07-.12-.26-.17-.46-.31z"/></svg>
+                <span class="absolute -top-1 -right-1 flex h-2.5 w-2.5">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-200"></span>
+                </span>
+            </div>
+            <div class="flex flex-col text-left leading-none">
+                <span class="text-[8px] uppercase tracking-wider font-extrabold text-emerald-100 mb-0.5">7/24 Online</span>
+                <span class="text-xs font-black text-white whitespace-nowrap">WhatsApp Destek</span>
+            </div>
+        </a>
+    </div>
+
+    <!-- ==========================================================================
+         14. MOBİL SABİT ALT AKSİYON ÇUBUĞU
+         ========================================================================== -->
+    <div class="fixed bottom-0 left-0 right-0 z-40 bg-[#11161d] border-t border-slate-800 p-2 sm:hidden flex items-center gap-2 shadow-2xl">
+        <a href="tel:905332256886" class="js-phone-link flex-1 bg-[#ff5500] text-white font-black py-2.5 px-3 rounded-sm flex items-center justify-center gap-1.5 text-xs">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            <span>Hemen Ara</span>
+        </a>
+        <a href="https://wa.me/905332256886" target="_blank" rel="noopener noreferrer" class="js-whatsapp-link flex-1 bg-[#25D366] text-white font-black py-2.5 px-3 rounded-sm flex items-center justify-center gap-1.5 text-xs">
+            <svg class="w-4 h-4 fill-white" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.37c1.45.78 3.08 1.2 4.74 1.2 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01C17.18 3.03 14.69 2 12.04 2zm5.43 12.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.66.15-.2.29-.77.96-.94 1.16-.17.2-.35.22-.64.07-.29-.15-1.24-.46-2.36-1.46-.88-.78-1.47-1.75-1.64-2.04-.17-.3-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.3-.49.1-.2.05-.37-.03-.52-.08-.14-.67-1.6-.92-2.19-.24-.57-.48-.49-.66-.5-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.79.37-.27.29-1.03 1-1.03 2.44 0 1.44 1.05 2.83 1.2 3.03.15.2 2.05 3.16 4.99 4.43.7.3 1.25.48 1.67.62.7.22 1.34.19 1.85.12.56-.09 1.73-.71 1.97-1.39.25-.68.25-1.27.17-1.39-.07-.12-.26-.17-.46-.31z"/></svg>
+            <span>WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/vehicles.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
