@@ -1,6 +1,6 @@
 /**
- * OTOPOL OTOMOTİV - Araç Listesi ve İşletme Yapılandırması
- * Sahibinden.com Mağazasıyla Tam Entegre Gerçek İlan Verileri
+ * OTOPOL OTOMOTİV - Sahibinden.com Gerçek İlan ve Fotoğraf Verileri
+ * Tüm fotoğraflar, kilometreler ve fiyatlar doğrudan Sahibinden.com ilanlarından alınmıştır.
  */
 
 const GALLERY_CONFIG = {
@@ -8,7 +8,7 @@ const GALLERY_CONFIG = {
     fullName: "OTOPOL OTOMOTİV",
     tagline: "Güven ve Prestijin Otomotivdeki Adresi",
     phone: "0 533 225 68 86",
-    phoneRaw: "905332256886", // Boşluksuz ve ülke kodlu (WhatsApp ve arama için)
+    phoneRaw: "905332256886",
     address: "Eyüp Sultan Mh. Sancaktepe & Maltepe / İSTANBUL",
     shortAddress: "Sancaktepe & Maltepe / İSTANBUL",
     sahibindenStoreUrl: "https://otopol.sahibinden.com",
@@ -21,170 +21,197 @@ const VEHICLES_DATA = [
     {
         id: "oto-01",
         title: "Audi A4 40 TDI 204HP Quattro Advanced",
-        subtitle: "Değişensiz • K.Kartına 12 Taksit • Matrix LED • Geri Görüş",
+        subtitle: "Değişensiz • K.Kartına 12 Taksit • Matrix LED • 4WD",
         category: "sedan",
         year: 2022,
-        km: 48000,
+        km: 138803,
         price: 2929000,
         currency: "TL",
-        fuel: "Dizel",
+        fuel: "Dizel (Hafif Hibrit)",
         transmission: "Otomatik (S-Tronic)",
-        color: "Füme Gri",
+        color: "Füme",
         enginePower: "204 HP",
-        traction: "Quattro (4x4)",
-        damageStatus: "Değişensiz / Ekspertiz Garantili",
+        traction: "4WD (Quattro Sürekli)",
+        damageStatus: "Değişensiz / Orijinal / Ekspertiz Garantili",
         badges: ["Değişensiz", "K.Kartına 12 Taksit", "Quattro 4x4"],
-        image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=80",
+        image: "https://i0.shbdn.com/photos/88/57/60/1342885760n0d.jpg",
         gallery: [
-            "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=80",
-            "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1200&q=80"
+            "https://i0.shbdn.com/photos/88/57/60/1342885760n0d.jpg",
+            "https://i0.shbdn.com/photos/88/57/60/x5_1342885760nze.jpg",
+            "https://i0.shbdn.com/photos/88/57/60/x5_1342885760p64.jpg",
+            "https://i0.shbdn.com/photos/88/57/60/x5_13428857609km.jpg",
+            "https://i0.shbdn.com/photos/88/57/60/x5_1342885760901.jpg",
+            "https://i0.shbdn.com/photos/88/57/60/x5_13428857604t6.jpg",
+            "https://i0.shbdn.com/photos/88/57/60/x5_134288576014t.jpg",
+            "https://i0.shbdn.com/photos/88/57/60/x5_13428857602h0.jpg"
         ],
         sahibindenUrl: "https://www.sahibinden.com/ilan/vasita-otomobil-audi-otopol-2022-a4-40tdi-204hp-quattro-degisensiz-k.karti-12taksit-1342885760/detay/",
         features: [
-            "Quattro Akıllı 4 Çeker Sistemi",
-            "204 HP Güçlü & Ekonomik TDI Motor",
+            "Quattro Akıllı 4 Çeker Sistemi (4WD)",
+            "204 HP Güçlü & Ekonomik Dizel Motor",
             "Advanced Donanım Paketi",
             "Kredi Kartına 12 Taksit İmkanı",
             "Matrix LED Ön ve Arka Farlar",
-            "Geri Görüş Kamerası & Park Sensörü",
+            "Geri Görüş Kamerası & Ön/Arka Park Sensörü",
             "Apple CarPlay & Android Auto",
-            "Hafızalı & Isıtmalı Sürücü Koltuğu"
+            "Hafızalı & Isıtmalı Koltuklar"
         ],
-        description: "OTOPOL Otomotiv güvencesiyle. 2022 Audi A4 40 TDI 204HP Quattro Advanced. Değişensiz, kurumsal ekspertiz garantili ve tüm bakımları eksiksizdir. Kredi kartına 12 taksit ve takas imkanı mevcuttur."
+        description: "OTOPOL-2022 A4 40TDI 204HP QUATTRO DEĞİŞENSİZ K.KARTI 12TAKSİT. Ekspertiz garantili, yetkili servis bakımlı ve hemen teslime hazırdır."
     },
     {
         id: "oto-02",
         title: "Mercedes-Benz Yeni E200d Exclusive Lacivert",
-        subtitle: "%20 KDV Avantajlı • K.Kartına 12 Taksit • Vakum • Panoramik Tavan",
+        subtitle: "%20 KDV Dahil • K.Kartına 12 Taksit • Vakumlu Kapılar • Cam Tavan",
         category: "sedan",
         year: 2020,
-        km: 74000,
+        km: 142732,
         price: 3649000,
         currency: "TL",
         fuel: "Dizel",
         transmission: "Otomatik (9G-Tronic)",
-        color: "Gece Mavisi / Lacivert",
+        color: "Lacivert",
         enginePower: "160 HP",
         traction: "Arkadan İtiş",
-        damageStatus: "Hatasız Kondisyonda / Ekspertiz Garantili",
+        damageStatus: "Hatasız Kondisyonda / Ağır Hasarsız",
         badges: ["%20 KDV Avantajı", "K.Kartına 12 Taksit", "Exclusive Paket"],
-        image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80",
+        image: "https://i0.shbdn.com/photos/87/53/35/1342875335v8u.jpg",
         gallery: [
-            "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80",
-            "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80"
+            "https://i0.shbdn.com/photos/87/53/35/1342875335v8u.jpg",
+            "https://i0.shbdn.com/photos/87/53/35/x5_1342875335mwx.jpg",
+            "https://i0.shbdn.com/photos/87/53/35/x5_1342875335uup.jpg",
+            "https://i0.shbdn.com/photos/87/53/35/x5_1342875335w06.jpg",
+            "https://i0.shbdn.com/photos/87/53/35/x5_1342875335ca4.jpg",
+            "https://i0.shbdn.com/photos/87/53/35/x5_1342875335ath.jpg",
+            "https://i0.shbdn.com/photos/87/53/35/x5_1342875335ix5.jpg"
         ],
         sahibindenUrl: "https://www.sahibinden.com/ilan/vasita-otomobil-mercedes-benz-otopol-2020-yeni-e200d-exclusive-lacivert-k.kart-12taksit-20kdv-1342875335/detay/",
         features: [
             "Exclusive Lüks Donanım Paketi",
             "%20 KDV Fatura Avantajı",
-            "Kredi Kartına 12 Taksit Seçeneği",
+            "Kredi Kartına 12 Taksit İmkanı",
             "Soft-Close Vakumlu Kapılar",
             "Panoramik Açılır Cam Tavan",
-            "Widescreen Çift Dijital Gösterge Ekranı",
-            "Hafızalı & Isıtmalı Elektrikli Koltuklar",
-            "64 Renk Ambiyans Aydınlatması"
+            "Widescreen Çift Ekran & Ambiyans Aydınlatması",
+            "Elektrikli Hafızalı ve Isıtmalı Koltuklar",
+            "LED Yüksek Performanslı Farlar"
         ],
-        description: "OTOPOL Otomotiv güvencesiyle. 2020 Yeni Kasa Mercedes-Benz E200d Exclusive. Şık lacivert gövde rengi, %20 KDV avantajı ve kredi kartına 12 taksit imkanıyla satışa hazırdır."
+        description: "OTOPOL-2020 YENİ E200d EXCLUSIVE LACİVERT-K.KART 12TAKSİT-%20KDV. Şık lacivert gövde rengi, tam donanım ve fatura avantajıyla satıştadır."
     },
     {
         id: "oto-03",
         title: "Audi A6 Avant S-Line 2.0 TDI Quattro",
-        subtitle: "Orijinal S-Line • K.Kartına 12 Taksit • Panoramik Tavan • Elektrikli Bagaj",
+        subtitle: "Orijinal S-Line • K.Kartına 12 Taksit • Panoramik Tavan • 4WD",
         category: "sedan",
         year: 2016,
-        km: 142000,
+        km: 171563,
         price: 2999000,
         currency: "TL",
         fuel: "Dizel",
         transmission: "Otomatik (S-Tronic)",
-        color: "Gümüş Gri",
+        color: "Gri",
         enginePower: "190 HP",
-        traction: "Quattro (4x4)",
-        damageStatus: "Orijinal / Ekspertiz Garantili",
+        traction: "4WD (Quattro Sürekli)",
+        damageStatus: "Orijinal S-Line / Servis Garantili",
         badges: ["Orijinal S-Line", "K.Kartına 12 Taksit", "Quattro 4x4"],
-        image: "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80",
+        image: "https://i0.shbdn.com/photos/85/87/96/1342858796o50.jpg",
         gallery: [
-            "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80",
-            "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+            "https://i0.shbdn.com/photos/85/87/96/1342858796o50.jpg",
+            "https://i0.shbdn.com/photos/85/87/96/x5_1342858796dyk.jpg",
+            "https://i0.shbdn.com/photos/85/87/96/x5_1342858796aic.jpg",
+            "https://i0.shbdn.com/photos/85/87/96/x5_1342858796ps2.jpg",
+            "https://i0.shbdn.com/photos/85/87/96/x5_1342858796gbh.jpg",
+            "https://i0.shbdn.com/photos/85/87/96/x5_1342858796x12.jpg",
+            "https://i0.shbdn.com/photos/85/87/96/x5_1342858796g1e.jpg"
         ],
         sahibindenUrl: "https://www.sahibinden.com/ilan/vasita-otomobil-audi-otopol-2016-a6-avant-s-line-2.0tdi-quattro-orjinl-k.kart-12takst-1342858796/detay/",
         features: [
-            "Orijinal Audi S-Line Spor Tasarım",
-            "Quattro 4x4 Çekiş Güvencesi",
+            "Orijinal S-Line Dış ve İç Spor Tasarım",
+            "Quattro Sürekli 4 Çeker Sistemi (4WD)",
             "Panoramik Açılır Cam Tavan",
-            "Elektrikli Otomatik Bagaj Kapağı",
+            "Elektrikli Otomatik Bagaj",
             "Kredi Kartına 12 Taksit İmkanı",
-            "F1 Kulakçıklı Spor Deri Direksiyon",
+            "F1 Vitesli Spor Deri Direksiyon",
             "S-Line Spor Koltuklar & Alcantara",
-            "Ön ve Arka Park Asistanı"
+            "Ön ve Arka Park Sensörleri"
         ],
-        description: "OTOPOL Otomotiv güvencesiyle. 2016 Audi A6 Avant S-Line 2.0 TDI Quattro. Geniş aile ve iş konforunu bir arada sunan özel station wagon tasarımı. Kredi kartına 12 taksit uygulanabilir."
+        description: "OTOPOL-2016 A6 AVANT S-LINE 2.0TDI QUATTRO-ORJINL-K.KART 12TAKST. Konfor, güç ve prestiji bir arada sunan özel S-Line Avant."
     },
     {
         id: "oto-04",
         title: "Mercedes-Benz Vito Ekstra Uzun VIP Arabölmeli",
-        subtitle: "Özel VIP Dizayn • Arabölmeli • K.Kartına 12 Taksit • Orijinal 114 BlueTec",
+        subtitle: "Özel VIP Arabölmeli Dizayn • K.Kartına 12 Taksit • Orijinal 114 BlueTec",
         category: "suv",
         year: 2020,
-        km: 118000,
+        km: 204901,
         price: 1899000,
         currency: "TL",
         fuel: "Dizel",
         transmission: "Otomatik",
-        color: "Derin Siyah",
+        color: "Siyah",
         enginePower: "136 HP",
         traction: "Arkadan İtiş",
-        damageStatus: "Orijinal VIP / Ekspertiz Garantili",
+        damageStatus: "Orijinal VIP / Ağır Hasarsız",
         badges: ["VIP Arabölmeli", "Ekstra Uzun Şasi", "K.Kartına 12 Taksit"],
-        image: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=1200&q=80",
+        image: "https://i0.shbdn.com/photos/87/94/79/134287947909i.jpg",
         gallery: [
-            "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=1200&q=80",
-            "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80"
+            "https://i0.shbdn.com/photos/87/94/79/134287947909i.jpg",
+            "https://i0.shbdn.com/photos/87/94/79/x5_13428794799fr.jpg",
+            "https://i0.shbdn.com/photos/87/94/79/x5_1342879479a3m.jpg",
+            "https://i0.shbdn.com/photos/87/94/79/x5_13428794794lj.jpg",
+            "https://i0.shbdn.com/photos/87/94/79/x5_1342879479kvb.jpg",
+            "https://i0.shbdn.com/photos/87/94/79/x5_1342879479g9b.jpg",
+            "https://i0.shbdn.com/photos/87/94/79/x5_1342879479e0y.jpg"
         ],
         sahibindenUrl: "https://www.sahibinden.com/ilan/vasita-minivan-panelvan-mercedes-benz-otopol-2020-vito-extra-uzun-vip-arabolme-orj-k.karti-12taksit-1342879479/detay/",
         features: [
             "Ekstra Uzun Şasi (Extra Long)",
             "Asansörlü Arabölme & Akıllı TV Ekranı",
             "Elektrikli Masajlı & Isıtmalı VIP Koltuklar",
-            "Özel Tasarım Yıldız Tavan & Ambiyans Işıkları",
-            "Buzdolabı & Elektrikli Masalar",
+            "Yıldız Tavan & Çok Renkli Ambiyans",
+            "Buzdolabı & Gizli Elektrikli Masalar",
             "Kredi Kartına 12 Taksit Seçeneği",
             "Özel Ses ve Multimedya Sistemi",
-            "VIP Makam Aracı Donanımı"
+            "Makam ve VIP Transfer Konsepti"
         ],
-        description: "OTOPOL Otomotiv güvencesiyle. 2020 Mercedes-Benz Vito Extra Uzun Tourer 114 BlueTec. En üst kalite arabölmeli VIP iç tasarıma sahip, prestijli makam ve transfer aracı."
+        description: "OTOPOL-2020 VITO EXTRA UZUN VIP ARABÖLME ORJ. K.KARTI 12TAKSİT. En kaliteli malzemelerle tasarlanmış arabölmeli VIP Vito."
     },
     {
         id: "oto-05",
         title: "Skoda Superb 1.5 TSI DSG 150HP Premium",
-        subtitle: "150 HP Turbo Benzin • DSG Otomatik • K.Kartına 12 Taksit • Premium Paket",
+        subtitle: "150 HP Turbo Benzin • 7 İleri DSG • K.Kartına 12 Taksit • Premium",
         category: "sedan",
         year: 2021,
-        km: 62000,
+        km: 130066,
         price: 1679000,
         currency: "TL",
         fuel: "Benzin",
         transmission: "Otomatik (DSG)",
-        color: "Kristal Beyaz",
+        color: "Gri",
         enginePower: "150 HP",
         traction: "Önden Çekiş",
         damageStatus: "Hatasız / Ekspertiz Garantili",
-        badges: ["150 HP TSI", "K.Kartına 12 Taksit", "Premium Donanım"],
-        image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80",
+        badges: ["150 HP TSI", "K.Kartına 12 Taksit", "Premium Paket"],
+        image: "https://i0.shbdn.com/photos/88/21/72/1342882172n9v.jpg",
         gallery: [
-            "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80"
+            "https://i0.shbdn.com/photos/88/21/72/1342882172n9v.jpg",
+            "https://i0.shbdn.com/photos/88/21/72/x5_1342882172584.jpg",
+            "https://i0.shbdn.com/photos/88/21/72/x5_1342882172fb1.jpg",
+            "https://i0.shbdn.com/photos/88/21/72/x5_1342882172nli.jpg",
+            "https://i0.shbdn.com/photos/88/21/72/x5_13428821722g3.jpg",
+            "https://i0.shbdn.com/photos/88/21/72/x5_1342882172vhb.jpg",
+            "https://i0.shbdn.com/photos/88/21/72/x5_1342882172ofp.jpg"
         ],
         sahibindenUrl: "https://www.sahibinden.com/ilan/vasita-otomobil-skoda-otopol-2021-superb-1.5tsi-dsg-150hp-premium-kredi-karti-12taksit-1342882172/detay/",
         features: [
-            "1.5 TSI 150 HP Performanslı & Tasarruflu Motor",
+            "1.5 TSI 150 HP Turbo Benzinli Motor",
             "7 İleri DSG Çift Kavramalı Şanzıman",
-            "Premium Geniş Lüks İç Mekan",
+            "Premium Donanım Paketi",
             "Kredi Kartına 12 Taksit İmkanı",
             "Geniş 625 Litre Bagaj Hacmi",
             "Apple CarPlay & Android Auto",
             "Anahtarsız Giriş & Çalıştırma (KESSY)",
             "Çift Bölgeli Dijital Otomatik Klima"
         ],
-        description: "OTOPOL Otomotiv güvencesiyle. 2021 Skoda Superb 1.5 TSI DSG 150HP Premium. Üstün diz mesafesi, geniş bagajı ve kusursuz kondisyonu ile satışta. Kredi kartına 12 taksit seçeneği bulunmaktadır."
+        description: "OTOPOL-2021 SUPERB 1.5TSI DSG 150HP PREMIUM-KREDİ KARTI 12TAKSİT. Geniş iç mekan, kusursuz sürüş ve yüksek konfor."
     }
 ];

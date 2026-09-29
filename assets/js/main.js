@@ -108,8 +108,8 @@ function renderVehicles(vehicles) {
                         src="${vehicle.image}" 
                         alt="${vehicle.title}" 
                         loading="lazy"
+                        referrerpolicy="no-referrer"
                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80'"
                     />
                     
                     <!-- Sahibinden Rozeti (Sol Üst) -->
@@ -472,7 +472,7 @@ function openVehicleModal(id) {
             <div class="p-6 space-y-6 max-h-[75vh] overflow-y-auto">
                 <!-- Ana Görsel -->
                 <div class="rounded-xl overflow-hidden h-72 md:h-96 relative bg-slate-100">
-                    <img id="modal-main-img" src="${vehicle.image}" alt="${vehicle.title}" class="w-full h-full object-cover">
+                    <img id="modal-main-img" src="${vehicle.image}" alt="${vehicle.title}" referrerpolicy="no-referrer" class="w-full h-full object-cover">
                     <div class="absolute bottom-4 left-4 bg-slate-950/90 backdrop-blur-md px-4 py-2.5 rounded-sm border border-white/20 shadow-lg">
                         <span class="text-[11px] text-slate-300 block font-medium uppercase tracking-wider">Satış Fiyatı</span>
                         <span class="text-2xl font-black text-[#ff5500]">${formatPriceTL(vehicle.price)}</span>
@@ -485,6 +485,7 @@ function openVehicleModal(id) {
                         ${vehicle.gallery.map(img => `
                             <img 
                                 src="${img}" 
+                                referrerpolicy="no-referrer"
                                 onclick="document.getElementById('modal-main-img').src='${img}'"
                                 class="w-20 h-16 object-cover rounded-sm border border-slate-200 cursor-pointer hover:border-[#ff5500] transition-all shrink-0 shadow-sm" 
                             />
