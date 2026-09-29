@@ -223,7 +223,11 @@ function applyFilters() {
 
     // Kategori Filtresi
     if (currentCategory !== 'all') {
-        result = result.filter(v => v.category === currentCategory);
+        if (currentCategory === 'quattro') {
+            result = result.filter(v => v.traction.toLowerCase().includes('quattro') || v.traction.includes('4x4'));
+        } else {
+            result = result.filter(v => v.category === currentCategory);
+        }
     }
 
     // Marka Filtresi
